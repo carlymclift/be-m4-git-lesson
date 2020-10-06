@@ -14,7 +14,4 @@ class ApplicationController < ActionController::Base
 
   private
 
-  def set_cart
-    @cart ||= Cart.new(session[:cart])
-  end
-end
+
